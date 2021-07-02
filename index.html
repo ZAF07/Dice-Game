@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="queries.css" />
+  </head>
+  <body>
+    <!--<div class="row container">-->
+    <header>
+      <div class="row welcome">
+        <h1>Zaffere's Mini Game</h1>
+        <p>
+          This mini game is an initiation on my part in becoming a web
+          developer. It’s focus is to showcase the knowledge I’ve obtained for
+          over a month; HTML, CSS and Vanilla JavaScript. Combining my own
+          skills with that of animation libraries, I was able to set up this web
+          application, which provides a dynamic interface for enhanced user
+          experience, in a span of three days.
+        </p>
+        <div class="rules">
+          <ol>
+            <li>select player</li>
+            <li>roll dice</li>
+            <li>reach winning score</li>
+          </ol>
+        </div>
+        <button type="button" class="btn-gamePage">Let's Play</button>
+      </div>
+    </header>
+    <section class="row play">
+      <div class="col span-1-of-2 player-sec-0">
+        <div class="player-0-deets" id="deets">
+          <h1 class="player-0-name" id="player-style">player one</h1>
+          <span class="emoji emoji-player-0">🌚</span>
+          <p class="player-0-rscore rscore">0</p>
+        </div>
+        <div class="player-0-current current" id="current">
+          <p class="player-0-cbox cbox">current</p>
+          <p class="player-0-cscore cscore">0</p>
+        </div>
+      </div>
+      <div class="col span-1-of-2 player-sec-1">
+        <div class="player-1-deets" id="deets">
+          <h1 class="player-1-name" id="player-style">player two</h1>
+          <span class="emoji emoji-player-1">🌝</span>
+          <p class="player-1-rscore rscore">0</p>
+        </div>
+        <div class="player-1-current current" id="current">
+          <p class="player-1-cbox cbox">current</p>
+          <p class="player-1-cscore cscore">0</p>
+        </div>
+      </div>
+
+      <img src="dice-6.png" alt="DICE\IMG" class="dice" />
+
+      <button class="btn-roll">roll</button>
+      <button class="btn-hold">hold</button>
+      <button class="btn-new">new game</button>
+      <button class="end-game">end game</button>
+
+      <select class="char-select-0 char">
+        <option value="1">🐆</option>
+        <option value="2">🦄</option>
+        <option value="3">🐹</option>
+        <option value="4">🐸</option>
+        <option value="5">🦖</option>
+        <option value="6">🦢</option>
+        <option value="7">🍄</option>
+        <option value="8">🌈</option>
+        <option value="9">🍆</option>
+        <option value="10">🤸‍♂️</option>
+        <option value="11">🤸‍♀️</option>
+      </select>
+      <select class="char-select-1 char">
+        <option value="1">🐆</option>
+        <option value="2">🦄</option>
+        <option value="3">🐹</option>
+        <option value="4">🐸</option>
+        <option value="5">🦖</option>
+        <option value="6">🦢</option>
+        <option value="7">🍄</option>
+        <option value="8">🌈</option>
+        <option value="9">🍆</option>
+        <option value="10">🤸‍♂️</option>
+        <option value="11">🤸‍♀️</option>
+      </select>
+      <button class="eselect-0">Go!</button>
+      <button class="eselect-1">G0!</button>
+      <input type="text" class="set-score" placeholder="Winning Score" />
+      <span class="loser-0">😭</span>
+      <span class="loser-1">😭</span>
+      <span class="slide-0"></span>
+      <span class="slide-1"></span>
+      <span class="rolls-one-0">Unlucky! You hit 1 !</span>
+      <span class="rolls-one-1">Unlucky! You hit 1 !</span>
+      <button type="button" class="btn-back">Back</button>
+      <button type="button" class="btn-next">Next player</button>
+    </section>
+    <!--  </div> -->
+    <script src="game.js"></script>
+  </body>
+</html>

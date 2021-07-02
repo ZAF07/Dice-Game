@@ -1,0 +1,214 @@
+/* MEDIA QUERIES FOR MINI GAME*/
+
+/* 640PX to 480px */
+
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+
+  .welcome h1 {
+    position: absolute;
+    top: 14%;
+    left: 13%;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .welcome h1::before {
+    content: 'Welcome to';
+    display: block;
+    position: absolute;
+    top: -27%;
+    left: -6%;
+    font-size: 24px;
+  }
+
+  .rules {
+    left: 18%;
+    font-size: 16px;
+  }
+
+  .welcome p {
+    top: 31%;
+    width: 100%;
+    line-height: 22px;
+  }
+
+  #deets {
+    width: 87%;
+    font-size: 10px;
+    margin-top: 26%;
+  }
+
+  .btn-back {
+    left: 7%;
+    top: 6%;
+    font-size: 12px;
+    width: 9%;
+  }
+
+  .btn-new {
+    left: 44%;
+    width: 16%;
+  }
+
+  .end-game {
+    left: 52%;
+    width: 17%;
+  }
+
+  .set-score,
+  .btn-roll,
+  .btn-hold {
+    left: 51%;
+    width: 15%;
+  }
+
+  #current {
+    margin-top: 52%;
+  }
+   .emoji {
+     margin-top: 10%;
+   }
+   .char {
+     left: 52%;
+     top: 30%;
+   }
+   .eselect-0,
+   .eselect-1 {
+     top: 40%;
+     left: 52%;
+   }
+
+   .eselect-0:hover,
+   .eselect-1:hover {
+     top: 40.3%;
+   }
+
+   .set-score {
+     width: 19%;
+   }
+
+   .rolls-one-0,
+   .rolls-one-1 {
+     font-size: 20px;
+   }
+
+   .slide-0 {
+     font-size: 28px;
+     left: 7%;
+   }
+   .slide-1 {
+     font-size: 28px;
+     left: 52%;
+   }
+
+   .loser-1 {
+     font-size: 21px;
+     left: 67%;
+   }
+   .loser-0 {
+     left: 10%;
+     font-size: 21px;
+   }
+
+}
+
+@media only screen and (max-width: 780px) and (min-width: 641px) {
+  .welcome h1 {
+    left: 16%;
+  }
+  .welcome h1::after{
+    top: -53%;
+  }
+  .welcome p {
+    width: 101%;
+    top: 40%;
+  }
+
+  .rules {
+    top: 44%;
+    left: 24%;
+    font-size: 16px;
+  }
+
+  #current {
+    margin-top: 27%;
+  }
+  #player-style {
+    width: 59%;
+    font-size: 40px;
+  }
+
+  .btn-new {
+    left: 47%;
+  }
+
+
+
+  .set-score,
+  .btn-roll,
+  .btn-hold,
+  .btn-next {
+    left: 51%;
+    width: 18%;
+  }
+  .set-score {
+    width: 16%;
+  }
+
+  .eselect-0,
+  .eselect-1,
+  .char {
+    left: 52%;
+  }
+
+  .eselect-0,
+  .eselect-1 {
+    top: 40%;
+  }
+  .eselect-0:hover,
+  .eselect-1:hover {
+    top: 40.4%;
+  }
+  .char {
+    top: 30%;
+  }
+
+  .btn-back {
+    width: 8%;
+  }
+
+  .rolls-one-0 {
+    left: 5%;
+    font-size: 27px;
+  }
+  .rolls-one-1 {
+    left: 56%;
+    font-size: 27px;
+  }
+
+  .loser-1 {
+    left: 60%;
+    font-size: 40px;
+  }
+  .loser-0 {
+    font-size: 40px;
+  }
+
+  .slide-1 {
+    left: 58%;
+    font-size: 29px;
+  }
+  .slide-0 {
+    left: 14%;
+    font-size: 29px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
